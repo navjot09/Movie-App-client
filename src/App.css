@@ -1,0 +1,137 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141414;
+    color: aliceblue;
+}
+
+.cred-box{
+    
+    border-radius: 15px;
+    border-color: cadetblue;
+    background-color: #1F1D36;
+}
+
+#cred-img {
+    animation: rotation 5s infinite alternate;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(10deg);
+    }
+  }
+.search-block{
+    align-self: center;
+}
+
+.text{
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: block;
+    width: 50%;
+}
+
+.icon-fvt{
+    max-width: 5%;
+}
+
+.search-bar{
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    width: 50%;
+    transition: 0.5s ease;
+}
+
+.search-bar:focus{
+    margin-top: 5%;
+    transform: scale(1.1);
+}
+
+
+.movie-card{
+    background-color: #4D4C7D;
+    max-width : 15rem;
+    margin: 1%;
+    transition: transform 0.2s;
+    border-radius: 25px;
+}
+
+.movie-img{
+    max-width: 14rem;
+    max-height: 18rem ;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.movie-card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border-width: 3px;
+    border-color: rgb(36, 138, 167);
+}
+
+.movie-card:hover .overlay-1{
+    opacity: 1;
+}
+
+
+.movie-card:hover .overlay-2{
+    opacity: 1;
+}
+
+.overlay-2{
+    position: absolute;
+    border-radius: 25px;
+    width: 100%;
+    background :black;
+    padding: 20px;
+    bottom: 0;
+    text-align: center;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s ease;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.overlay-1{
+    position: absolute;
+    border-radius: 25px;
+    width: 100%;
+    background :black;
+    padding: 20px;
+    bottom: 5rem;
+    text-align: center;
+    left: 0px;
+    opacity: 0;
+    transition: 0.5s ease;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.fvt-row{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.profile-div{
+    display:flex; 
+    position:absolute;
+    top: 5rem;  
+    bottom:0; 
+    right:0; 
+    left:0;
+}
