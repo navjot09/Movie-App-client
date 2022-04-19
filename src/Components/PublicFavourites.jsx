@@ -75,7 +75,7 @@ function PublicFavourites() {
     return (
         <div>
             <Navbar />
-            <img className="icon-fvt" src="https://cdn-icons.flaticon.com/png/512/2577/premium/2577272.png?token=exp=1650339279~hmac=d0a87e4cc7ad668095792cfda57c8046" ></img>
+            <img className="icon-fvt" src="client\public\2581010.png" ></img>
             
             <div className="row fvt-row" >
                 <MovieListInFvt movies={mov} handleFavClick={DeleteFromPublicFav} />

@@ -35,7 +35,7 @@ function PvtFavourites() {
     return (
         <div>
             <Navbar />
-            <img className="icon-fvt" src="https://cdn-icons.flaticon.com/png/512/2577/premium/2577301.png?token=exp=1650339191~hmac=3cc630f7b49ed7d1f047bf9e0234bac0"></img>
+            <img className="icon-fvt" src="client\public\4029271.png"></img>
             
             <div className="row fvt-row" >
                 <MovieListInFvt movies={mov} handleFavClick={DeleteFromPrivateFav}/>
