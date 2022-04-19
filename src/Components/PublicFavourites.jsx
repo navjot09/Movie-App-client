@@ -75,7 +75,7 @@ function PublicFavourites() {
     return (
         <div>
             <Navbar />
-            <img className="icon-fvt" src="..\public\2581010.png" ></img>
+            <img className="icon-fvt" src="2581010.png" ></img>
             
             <div className="row fvt-row" >
                 <MovieListInFvt movies={mov} handleFavClick={DeleteFromPublicFav} />
